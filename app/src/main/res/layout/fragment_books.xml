@@ -16,6 +16,8 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:itemCount="10"
         android:visibility="gone"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
         tools:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:spanCount="2"
         tools:listitem="@layout/item_book" />

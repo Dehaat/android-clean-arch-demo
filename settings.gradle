@@ -1,2 +1,7 @@
 include ':app'
 rootProject.name = "CleanArchitecturedemo"
+include ':domain'
+include ':entities'
+include ':data'
+include ':common'
+include ':dehaat-base'
