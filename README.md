@@ -2,6 +2,8 @@
 
 ![alt text](https://github.com/Dehaat/android-clean-arch-demo/blob/develop/layers_communication.png?raw=true)
 
+# Common Guidelines
+https://docs.google.com/presentation/d/1HdEfiyd8dvnMQgyao6CMLR33gndrHsLV9az0N0AtwwA/edit#slide=id.p
 
 ## Layers
 1. Presentation: the layer that interacts with the UI.
