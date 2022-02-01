@@ -3,7 +3,7 @@ package com.cleanarchitecturedemo.presentation.feature.home.ui
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.agridroid.baselib.extensions.callAndGetUIState
-import com.cleanarch.common.presentation.ui.UIState
+import com.cleanarch.base.presentation.ui.UIState
 import com.cleanarch.domain.volume.usecases.BookmarkBookUseCase
 import com.cleanarch.domain.volume.usecases.GetBookmarksUseCase
 import com.cleanarch.domain.volume.usecases.GetBooksUseCase

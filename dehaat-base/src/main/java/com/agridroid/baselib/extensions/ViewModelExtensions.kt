@@ -1,10 +1,10 @@
 package com.agridroid.baselib.extensions
 
 import androidx.lifecycle.ViewModel
-import com.cleanarch.common.entity.result.api.APIResultEntity
-import com.cleanarch.common.presentation.ui.UIState
 import kotlinx.coroutines.flow.MutableSharedFlow
 import androidx.lifecycle.viewModelScope
+import com.cleanarch.base.entity.result.api.APIResultEntity
+import com.cleanarch.base.presentation.ui.UIState
 import kotlinx.coroutines.launch
 
 typealias APIResultErrorException = APIResultEntity.Failure.ErrorException

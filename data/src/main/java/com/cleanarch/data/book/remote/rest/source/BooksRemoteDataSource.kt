@@ -1,6 +1,6 @@
 package com.cleanarch.data.book.remote.rest.source
 
-import com.cleanarch.common.data.api.makeAPICall
+import com.cleanarch.base.data.api.makeAPICall
 import com.cleanarch.data.book.remote.rest.api.BooksApi
 import com.cleanarch.data.book.remote.rest.mappers.BookApiResponseMapper
 import kotlinx.coroutines.Dispatchers

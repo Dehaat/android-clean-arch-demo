@@ -1,8 +1,9 @@
 package com.agridroid.baselib.extensions
 
-import com.cleanarch.common.entity.result.api.APIResultEntity
-import com.cleanarch.common.presentation.ui.MessageViewType
-import com.cleanarch.common.presentation.ui.UIState
+import com.cleanarch.base.entity.result.api.APIResultEntity
+import com.cleanarch.base.presentation.ui.MessageViewType
+import com.cleanarch.base.presentation.ui.UIState
+
 
 suspend fun <R, T> APIResultEntity<R>.toUIState(
     parseSuccessValue: suspend (R) -> T,

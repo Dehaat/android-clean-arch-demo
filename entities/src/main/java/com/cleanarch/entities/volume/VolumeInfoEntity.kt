@@ -1,6 +1,6 @@
 package com.cleanarch.entities.volume
 
-import com.cleanarch.common.entity.IEntity
+import com.cleanarch.base.entity.IEntity
 
 data class VolumeInfoEntity(
     val title: String,

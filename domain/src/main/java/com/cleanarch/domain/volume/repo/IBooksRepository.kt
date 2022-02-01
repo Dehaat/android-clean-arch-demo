@@ -1,6 +1,6 @@
 package com.cleanarch.domain.volume.repo
 
-import com.cleanarch.common.entity.result.api.APIResultEntity
+import com.cleanarch.base.entity.result.api.APIResultEntity
 import com.cleanarch.entities.volume.VolumeEntity
 import kotlinx.coroutines.flow.Flow
 

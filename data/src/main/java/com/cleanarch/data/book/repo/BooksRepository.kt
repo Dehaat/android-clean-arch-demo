@@ -1,6 +1,6 @@
 package com.cleanarch.data.book.repo
 
-import com.cleanarch.common.entity.result.api.APIResultEntity
+import com.cleanarch.base.entity.result.api.APIResultEntity
 import com.cleanarch.data.book.local.database.source.IBooksLocalDataSource
 import com.cleanarch.data.book.remote.rest.source.IBooksRemoteDataSource
 import com.cleanarch.domain.volume.repo.IBooksRepository

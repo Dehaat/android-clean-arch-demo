@@ -2,7 +2,7 @@ package com.agridroid.baselib.extensions
 
 import androidx.annotation.UiThread
 import com.agridroid.baselib.callbacks.IProgressViewListener
-import com.cleanarch.common.presentation.ui.UIState
+import com.cleanarch.base.presentation.ui.UIState
 
 @UiThread
 fun <D> UIState<D>.processWithProgress(
