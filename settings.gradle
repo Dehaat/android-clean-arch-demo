@@ -3,4 +3,3 @@ rootProject.name = "CleanArchitecturedemo"
 include ':domain'
 include ':entities'
 include ':data'
-include ':dehaat-base'

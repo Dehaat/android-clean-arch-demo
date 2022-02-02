@@ -54,7 +54,7 @@ dependencies {
     /*This is just to provide dependencies, Do not use any class from this module*/
     implementation project(path: ':data')
     implementation 'com.github.Dehaat:clean-arch-base:0.0.1'
-    implementation project(path: ':dehaat-base')
+    implementation 'com.github.Dehaat:dehaat-android-base:v0.0.1'
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
